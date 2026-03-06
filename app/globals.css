@@ -14,3 +14,23 @@
   --font-bricolage: var(--font-bricolage), system-ui, sans-serif;
   --font-instrument-serif: var(--font-instrument-serif), Georgia, serif;
 }
+
+body {
+  font-size: 14px;
+}
+
+.box {
+  border: 1px dashed #304f84;
+  padding: 10px 8px;
+  font-size: 11px;
+  background: white;
+  width: 170px;
+  line-height: 1.25;
+  box-shadow: 0 2px 6px rgba(15, 23, 42, 0.08);
+  transition: background-color 0.18s ease, border-color 0.18s ease;
+}
+
+.box:hover {
+  background: #f3f4f6;
+  border-color: #2a4573;
+}
